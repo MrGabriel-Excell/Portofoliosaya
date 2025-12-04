@@ -1,0 +1,31 @@
+.profile-container{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.profile-header{
+    background-color: #6f776f;
+    color: rgb(89, 255, 0);
+    text-align: center;
+    font-size: 50px;
+}
+th, td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
